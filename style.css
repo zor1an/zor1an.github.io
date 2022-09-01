@@ -1,0 +1,45 @@
+body {
+  background-color: black ;
+  background-image: url('media/gifs/bestdesignchoice.gif'), url('media/pics/wall-paper.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: larger;
+}
+
+#header {
+  color: lightblue;
+  font-family: Times New Roman;
+  font-style: bold;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+#main {
+  margin: auto;
+  text-align: center;
+  font-family: still time;
+  font-size: 3vw;
+}
+
+button {
+  background-color: lightblue;
+  border: 2px solid limegreen;
+  border-radius: 5px;
+}
+
+.pulsate {
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+}
+@-webkit-keyframes pulsate {
+    0% { 
+        color: cyan;
+    }
+    50% { 
+        color: white;
+    }
+    100% { 
+        color: cyan;
+    }
+}
